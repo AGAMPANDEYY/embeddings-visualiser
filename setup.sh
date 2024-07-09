@@ -1,5 +1,5 @@
 #!/bin/bash
-# Download and install rustup, which installs the latest stable version of Rust and Cargo
+# Install rustup to get the latest Rust and Cargo
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
-# Load Rust environment variables
+# Source the Cargo environment to update paths
 source $HOME/.cargo/env
