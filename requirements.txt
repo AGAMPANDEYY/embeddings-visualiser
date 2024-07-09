@@ -1,4 +1,3 @@
-./setup.sh
 numpy
 pandas
 streamlit
